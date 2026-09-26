@@ -18,7 +18,7 @@ build/mastermind
 ```
 
 ## Usage
-
+To see the help page, type `mastermind -h` and you will see
 ```
 Usage:
   mastermind [options]
@@ -41,3 +41,8 @@ Examples:
 Without arguments, the game starts in default mode:
   PvE, basic difficulty.
 ```
+
+## Indev features
+- Scoreboard
+- Option `-l`
+- Score save 

@@ -2,7 +2,7 @@
 #define GAME_SOLVER_H
 
 #include <stddef.h>
-#include "game_api.h"
+#include "game_api/mastermind.h"
 
 // TODO: Сделать обработку ошибок
 

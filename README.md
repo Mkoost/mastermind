@@ -9,10 +9,9 @@ To build the game, you need:
 
 ## Build
 
-From the root of the project, run:
+From the ./src/ of the project, run:
 
 ```bash
-mkdir build
 make
 build/mastermind
 ```

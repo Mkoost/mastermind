@@ -105,8 +105,6 @@ CowNBulls count_bulls_cows(const char *secret, const char *guess, size_t n)
     return result;
 }
 
-/* ===== Основная операция ===== */
-
 CowNBulls make_attempt(char const *number, game_error_t *e)
 {
     CowNBulls result = {0, 0};
@@ -136,8 +134,6 @@ InvalidArg:
     ERROR_HANDLER___(GAME_WRONG_ARG_FORMAT, "Invalid number string", e);
     return (CowNBulls){0, 0};
 }
-
-/* ===== Управление секретом ===== */
 
 char *get_number()
 {
